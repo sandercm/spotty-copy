@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "58543468964",
+    "firebase_url": "https://chromatic-theme-235319.firebaseio.com",
+    "project_id": "chromatic-theme-235319",
+    "storage_bucket": "chromatic-theme-235319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58543468964:android:28a27f0e3c8a4eb8",
+        "android_client_info": {
+          "package_name": "com.spotty.spotty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58543468964-11u8v9huq0mp41crok4kh88rve9fi8t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spotty.spotty",
+            "certificate_hash": "fb649b75dc2e49b1b0c592b15174b4910edf6375"
+          }
+        },
+        {
+          "client_id": "58543468964-vohk0pous9ir5pbcumthbkv7m6nfppbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spotty.spotty",
+            "certificate_hash": "1e254540d6c3c80aa6ba41375e2bd54c16da6d9d"
+          }
+        },
+        {
+          "client_id": "58543468964-llupd62evsp4qj6gqlhte5e15hmbofvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-UzO28TgvUqWyWYSfCGquoaoIlNV3cz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58543468964-llupd62evsp4qj6gqlhte5e15hmbofvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

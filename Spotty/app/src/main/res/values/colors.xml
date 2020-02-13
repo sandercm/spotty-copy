@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>\
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#278BE3</color>
+    <color name="colorPrimaryDark">#0f5998</color>
+    <color name="colorAccent">#4075A2</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+    <color name="spotty_text_color">#606D7C</color>
+    <color name="spotty_error_color">#bb0000</color>
+</resources>

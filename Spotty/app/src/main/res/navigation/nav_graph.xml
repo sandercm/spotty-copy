@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splash">
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.example.spotty.fragments.SplashFragment"
+        android:label="SplashFragment">
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/spottyMapFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/spottyMapFragment"
+        android:name="com.example.spotty.fragments.Mapfragment"
+        android:label="SpottyMapFragment">
+        <action
+            android:id="@+id/action_spottyMapFragment_to_spotFragment"
+            app:destination="@id/spotFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.spotty.fragments.FriendsFragment"
+        android:label="Friends"
+        tools:layout="@layout/friends_view" />
+    <action
+        android:id="@+id/action_global_friendsFragment"
+        app:destination="@id/friendsFragment" />
+    <fragment
+        android:id="@+id/checkin_fragment"
+        android:name="com.example.spotty.fragments.CheckinFragment"
+        android:label="Checkin"
+        tools:layout="@layout/checkin_fragment" />
+    <action
+        android:id="@+id/action_global_checkinFragment"
+        app:destination="@id/checkin_fragment" />
+    <fragment
+        android:id="@+id/offline"
+        android:label="offline"
+        android:name="com.example.spotty.fragments.Offline"
+        tools:layout="@layout/offline_fragment" />
+    <action
+        android:id="@+id/action_global_offline"
+        app:destination="@id/offline"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true"/>
+    <fragment
+        android:id="@+id/settings"
+        android:label="settings"
+        android:name="com.example.spotty.fragments.SettingsFragment"
+        tools:layout="@layout/settings" />
+    <action
+        android:id="@+id/action_global_settings"
+        app:destination="@id/settings" />
+    <fragment
+        android:id="@+id/spotFragment"
+        android:name="com.example.spotty.fragments.SpotFragment"
+        android:label="spot_fragment"
+        tools:layout="@layout/spot_fragment" />
+    <action
+        android:id="@+id/action_global_spotFragment"
+        app:destination="@id/spotFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.spotty.fragments.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_loginFragment"
+        app:destination="@id/loginFragment"/>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.spotty.fragments.RegisterFragment"
+        android:label="register_fragment"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@+id/loginFragment" />
+    </fragment>
+    <action android:id="@+id/action_global_spottyMapFragment" app:destination="@id/spottyMapFragment" />
+    <action android:id="@+id/action_global_registerFragment" app:destination="@id/registerFragment" />
+</navigation>
